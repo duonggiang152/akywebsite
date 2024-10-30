@@ -1,0 +1,18 @@
+#container-preview {
+    display: flex;
+}
+#container-preview > :nth-child(2) {
+    margin: 0px 0px 0px 20px;
+}
+
+#container-preview > :nth-child(2) > * {
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    #container-preview {
+        display: block;
+    }
+    #container-preview > * {
+        margin: 10px auto;
+    }
+}

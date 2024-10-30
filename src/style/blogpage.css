@@ -1,0 +1,30 @@
+.content-brief {
+    display: flex;
+}
+.content-brief > :last-child {
+    margin-left: 20px;
+}
+.content-brief > :first-child {
+    width: 150px;
+    height: 150px;
+}
+.blog-brief {
+    margin: 10px;
+    padding: 10px;
+    background-color:  rgb(236, 236, 236);
+    transition: background-color 0.2s ease;
+}
+.blog-brief:hover {
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+    .content-brief {
+        display: block;
+    }
+
+    .content-brief > :first-child {
+        float: left;
+    }
+}

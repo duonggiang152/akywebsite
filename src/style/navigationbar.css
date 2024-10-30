@@ -1,0 +1,31 @@
+#navigation-bar {
+    width: 1000px;
+    margin: 0px auto;
+}
+#navigation-bar > ul {
+    display: flex;
+    width: calc(100%-2px);
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    padding-inline-start: 0px;
+}
+#navigation-bar > ul > li {
+    margin: 20px 0px 20px 20px;
+    padding-right: 7px;
+    border-right: 1px solid #949494;
+
+}
+#navigation-bar > ul > li:hover {
+    cursor: pointer;
+    color: #337ab7;
+}
+@media only screen and (max-width: 1000px) {
+    #navigation-bar {
+        width: 100vw;
+        margin: 0px 0px 0px 0px;
+    }
+}

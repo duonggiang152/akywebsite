@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+</head>
+<body>
+    <header>
+        <div id="greeting">
+            <div>Chào Mừng đến với <span><a>Máy in BVK</a></span></div>
+            <div class="hotline">Hotline: </div>
+        </div>
+        <div id="brand-div">
+            <div id="brand-icon">
+                <img src="/public/img/tittle.png" alt="">
+            </div>
+            <div class="search-container">
+                <div class="input-box">
+                    <input id="search-box"  type="text" placeholder="Tìm kiếm...">
+                </div>
+                <button type="submit" id ="search-button">
+                    <img  id="search-icon" src="./public/img/search.png"  alt="">
+                </button>
+            </div>
+        </div>
+        <div id="navigation-bar">
+            <ul>
+                <li onclick="location.href='./homepage.html';">Trang chủ</li>
+                <li onclick="location.href='./services.html';">Dịch vụ</li>
+                <li onclick="location.href='./blog.html';">Tin tức</li>
+                <li onclick="location.href='./introduce-company.html';">Giới thiệu</li>
+            </ul>
+        </div>
+        <div id="slider-bar-container">
+            <ul id="short-cut">
+                <li>Short Cut 1</li>
+                <li>Short Cut 2</li>
+                <li>Short Cut 3</li>
+                <li>Short Cut 4</li>
+            </ul>
+            <div id="slide-bar">
+                <div id="slide-back">
+                    <img src="./public/img/back-icon2.png" alt="">
+                </div>
+                <img id="slide1" src="./public/img/slice1.png">
+                <img id="slide2" src="./public/img/slice2.png">
+                <img id="slide3" src="./public/img/slice3.png">
+                <div id="order-container-slide" class="order-container-slide">
+                    <div id="order-container-slide-block-1"></div>
+                    <div id="order-container-slide-block-2"></div>
+                    <div id="order-container-slide-block-3"></div>
+                </div>
+                <div id="slide-font">
+                    <img src="./public/img/back-icon2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-content" id="homepage">
+        <div id="categories">
+            <div>Danh Mục sản phẩm</div>
+            <ul>
+                <li id="decan-search">In decan</li>
+                <li id="marry-search">In Thiệp cưới</li>
+                <li id="sticker-search">In Sticker</li>
+            </ul>
+        </div>
+        <div id="recomment-product">
+            <div>Dịch vụ bán chạy:</div>
+            <div id="homepage-content">
+                <div>
+                    <div class="image-brief-service">
+                        <img src="/public/img/brieftproduct.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Dịch vụ 1</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <footer id="footer"> 
+        <article>
+            <div id="brief-introduce">
+                <div>
+                    Cửa Hàng In
+                </div>
+                <div id="address">
+                    Địa chỉ: Số 16 Duy Nghĩa Thanh Xuân Hà nội
+                </div>
+                <div>
+                    Certificate: Bộ công thương, bộ  ..., chứng chỉ ISO ...
+                </div>
+                <div>Email address</div>
+                <div>
+                    website address
+                </div>
+            </div>
+            <div>
+                <div>
+                    Chính sách
+                </div>
+                <div>
+                    <ul>
+                        <li>Đổi trả</li>
+                        <li>Thanh toán</li>
+                        <li>Đặt Hàng</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div>Hootline:</div>
+                <div>SDT</div>
+            </div>
+        </article>
+        <div id="right">
+            <div>Bản quyền thuộc về ...</div>
+        </div>
+    </footer>
+    <script src="./dist/homepage.js"> </script>
+</body>
+</html>

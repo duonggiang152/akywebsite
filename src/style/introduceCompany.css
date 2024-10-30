@@ -1,0 +1,13 @@
+#introduce-company {
+    width: 1000px;
+    margin: 0px auto;
+}
+#introduce-company > * {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #introduce-company {
+       width: 90vw;
+    }
+}
