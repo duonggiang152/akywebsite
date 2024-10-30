@@ -1,4 +1,5 @@
 const https = require('https');
+const http = require('http')
 const fs = require('fs');
 const express = require('express');
 const path = require('path');
@@ -18,6 +19,10 @@ app.get('/', (req, res) => {
 });
 
 const PORT = 443;
+const PORTLocal = 80;
+http.createServer(app).listen(PORTLocal, () => {
+    console.log(`HTTPS server running at https://127.0.0.1:${PORTLocal}`);
+})
 https.createServer(sslOptions, app).listen(PORT, () => {
   console.log(`HTTPS server running at https://127.0.0.1:${PORT}`);
 });
