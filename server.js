@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'homepage.html'));
 });
 
-const PORT = 80;
+const PORT = 443;
 https.createServer(sslOptions, app).listen(PORT, () => {
   console.log(`HTTPS server running at https://127.0.0.1:${PORT}`);
 });
