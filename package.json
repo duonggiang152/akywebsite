@@ -10,8 +10,8 @@
     "built-product-details": "webpack --config product-details.config.js",
     "built-introduce-comapny": "webpack --config introduce-company.config.js",
     "built-services": "webpack --config services.config.js",
-    "built-blog":  "webpack --config blog.config.js",
-    "built-blog-detail":  "webpack --config blogdetail.config.js"
+    "built-blog": "webpack --config blog.config.js",
+    "built-blog-detail": "webpack --config blogdetail.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +22,8 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
   }
 }
