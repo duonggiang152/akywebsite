@@ -17,5 +17,5 @@ CN           = 54.254.164.47  # Use IP or localhost here
 subjectAltName = @alt_names
 
 [alt_names]
-IP.1          = 127.0.0.1   # Add your IP address here
+IP.1          = 54.254.164.47   # Add your IP address here
 IP.2          = ::1         # Optionally add IPv6 loopback if needed
