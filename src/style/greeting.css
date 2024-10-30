@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     font-size: 14px;
     overflow: hidden;
-    margin: 0px auto 0px auto;
+    margin: 7px auto 0px auto;
 }
 #greeting > :first-child {
     font-size: 14px;

@@ -4,7 +4,7 @@ module.exports = {
     entry: "./src/homepage.js",
     output: {
         filename: "homepage.js",
-        path: path.resolve(__dirname, "dist")
+        path: path.resolve(__dirname, "public/dist")
     },
     module: {
         rules: [

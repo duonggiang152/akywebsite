@@ -24,6 +24,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "run-all": "^1.0.1"
   }
 }
